@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/alt3-cookbooks/phpunit.svg)](https://travis-ci.org/alt3-cookbooks/phpunit)
 
-Installs PHPUnit using Composer.
+Installs PHPUnit using Composer cookbook LWRP.
 
 # Supported platforms
 
@@ -16,7 +16,7 @@ Installs PHPUnit using Composer.
 
 ## phpunit::default
 
-Installs PHPUnit using xxx.
+Installs PHPUnit.
 
 # Contributing
 
