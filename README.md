@@ -4,13 +4,15 @@
 
 Installs PHPUnit using Composer cookbook LWRP.
 
-# Supported platforms
+# Supported Platforms
 
-  - ubuntu-14.04
+  This cookbook is test-kitchen tested against the following platforms:
+
+    - ubuntu-14.04
 
 # Depends
 
-- Composer [cookbook](https://github.com/Morphodo/chef-composer)
+- Morphodo [composer](https://github.com/Morphodo/chef-composer) cookbook
 
 # Recipes
 
