@@ -5,7 +5,7 @@ return if node['platform'] == 'windows'
 composer_package "PHPUnit" do
   action [:create, :update]
   install_path "/opt/composer-libraries"
-  packages ({node['phpunit']['composer_package'] => node['phpunit']['composer_version']})
+  packages ({node['phpunit']['package'] => node['phpunit']['version']})
   config ({"bin-dir" => node['phpunit']['bin_dir']})
   group "root"
 end
