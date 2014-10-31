@@ -8,7 +8,7 @@ Installs PHPUnit using Composer cookbook LWRP.
 
   This cookbook is test-kitchen tested against the following platforms:
 
-    - ubuntu-14.04
+- ubuntu-14.04
 
 # Depends
 
