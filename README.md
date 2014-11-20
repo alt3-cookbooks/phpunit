@@ -1,6 +1,6 @@
 # phpunit cookbook
 
-[![Build Status](https://travis-ci.org/alt3-cookbooks/phpunit.svg)](https://travis-ci.org/alt3-cookbooks/phpunit)
+[![Build Status](https://travis-ci.org/alt3/chef-phpunit.svg)](https://travis-ci.org/alt3/chef-phpunit)
 
 Installs PHPUnit using Composer cookbook LWRP.
 
@@ -22,7 +22,7 @@ Installs PHPUnit.
 
 # Contributing
 
-1. Fork it ( https://github.com/alt3-cookbooks/phpunit/fork )
+1. Fork it ( https://github.com/alt3/chef-phpunit/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Make sure test-kitchen and foodcritic tests pass
 4. Commit your changes (`git commit -am 'Adds some feature'`)
