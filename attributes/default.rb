@@ -1,6 +1,6 @@
 
 # Composer required install path to prevent installing directly under /
-default['composer']['install_path'] = "/opt/composer-libraries";
+default['composer']['install_path'] = "/opt/composer-libraries/phpunit";
 default['composer']['bin_dir']      = "/usr/local/bin"
 
 # PHP CodeSniffer
