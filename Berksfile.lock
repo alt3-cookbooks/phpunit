@@ -1,0 +1,18 @@
+DEPENDENCIES
+  composer
+    git: https://github.com/Morphodo/chef-composer.git
+    revision: 27cb886029fc28e08ca80ab0b15408b412bb09b7
+  php5-ppa
+    git: https://github.com/alt3/chef-php5-ppa.git
+    revision: 1ec87dfe8843264d0664b3c60536a3b740280045
+  phpunit
+    path: .
+    metadata: true
+
+GRAPH
+  apt (2.6.0)
+  composer (0.2.1)
+  php5-ppa (1.0.0)
+    apt (>= 0.0.0)
+  phpunit (1.0.0)
+    composer (>= 0.0.0)
