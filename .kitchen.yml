@@ -13,7 +13,8 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[composer]
-      - recipe[phpunit]
+        - recipe[php5-ppa]
+        - recipe[composer]
+        - recipe[phpunit]
 
     attributes:

@@ -1,11 +1,13 @@
 # Exit on Windows platforms
 return if node['platform'] == 'windows'
 
-# Install PHPUnit using Composer cookbook LWRP
-composer_package "PHPUnit" do
-  action [:create, :update]
-  install_path "/opt/composer-libraries"
-  packages ({node['phpunit']['package'] => node['phpunit']['version']})
-  config ({"bin-dir" => node['phpunit']['bin_dir']})
-  group "root"
+# Composer install PHP CodeSniffer
+composer_package 'PHP CodeSniffer' do
+    install_path node['composer']['install_path']
+    packages ({node['phpunit']['package'] => node['phpunit']['version']})
+    config ({
+        "bin-dir" => node['composer']['bin_dir']
+        })
+    group "root"
+    action [:create, :update]
 end

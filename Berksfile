@@ -2,4 +2,5 @@ source "https://supermarket.getchef.com"
 
 metadata
 
-cookbook "composer",  git: "git://github.com/Morphodo/chef-composer.git"
+cookbook 'php5-ppa', git: 'https://github.com/alt3/chef-php5-ppa.git'
+cookbook "composer", git: "https://github.com/Morphodo/chef-composer.git"
